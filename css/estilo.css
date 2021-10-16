@@ -1,0 +1,110 @@
+.btn-outline{
+    color: #B20000 !important;
+    border-color: #B20000 !important;;
+    background-color: white !important;;
+}
+.btn-outline:hover,a.text-white:hover{
+    color: #FFF !important;
+    background: #B20000 !important;;
+}
+#page-content{
+	flex: 1 0 auto;
+}
+#sticky-footer{
+	flex-shrink: none;
+}
+.textos{
+	font-family: 'Comfortaa', cursive;
+}
+.titulos{
+	font-family: 'Raleway';
+}
+.cinza{
+	background-color: #E6E4DC; 
+}
+.etec{
+	background-color: #B20000; 
+	color: white;
+}
+.teste{
+    background-color: #51626F;
+    color: white !important;
+}
+.btn-cad{
+    color: #FFF !important;
+    background: #B20000 !important;;
+}
+.custom-file-label::after{
+	background-color: #B20000 !important;
+	opacity: 0.8;	
+	color: #FFF !important;
+}
+.checkbox-nice {
+    position: relative;
+    padding-left: 15px;
+
+}
+.checkbox-nice input[type=checkbox] {
+    visibility: hidden;
+}
+.checkbox-nice label {
+    padding-top: 3px;
+}
+.checkbox-nice.checkbox-inline>label {
+    margin-left: 16px;
+}
+.checkbox-nice label:before {
+    cursor: pointer;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 1px;
+    top: 1px;
+    background: #ffffff;
+    content: "";
+    border: 1px solid #B20000;
+    border-radius: 3px;
+    background-clip: padding-box;
+}
+.checkbox-nice label:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 7px;
+    background: transparent;
+    top: 7px;
+    left: 6px;
+    border: 3px solid #B20000;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.checkbox-nice label:hover::after {
+    opacity: 0.3;
+}
+.checkbox-nice input[type=checkbox]:checked+label:after {
+    opacity: 1;
+}
+.active{
+    background-color: #B20000 !important;
+    color: white !important;
+}
+#sucesso, #sucessoEdit, #sucessocoor{
+            display: block;
+            padding: 5px;
+            width: 100%;
+            text-align: center;
+            background-color: #32CD32;
+            color: white;
+}
+#fracasso, #fracassoEdit, #fracassoRecupera{
+            display: block;
+            padding: 5px;
+            width: 100%;
+            text-align: center;
+            background-color: #FF1C25;
+            color: white;
+}
